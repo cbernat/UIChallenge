@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>UICH-01-Grid Sample</title>
+
+  <!-- Meta Tags-->
+  <meta name="title" content="UICH-01-Grid Sample" />
+  <meta name="description" content="UICH-01-Grid Sample">
+  <meta charset="UTF-8">
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="keywords" content="UICH-01-Grid Sample">
+  <meta name="application-name" content="Challenge">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="./normalize.css">
+
+  <style>
+
+  .bg-yellow {
+    background-color: #FBB224;
+  }
+
+  .bg-violet {
+    background-color: #B787C6;
+  }
+
+  .bg-gray {
+    background-color: #333333;
+  }
+
+  .txt-white {
+    color: #FFF;
+    text-transform: uppercase;
+  }
+
+  main {
+    font-family: 'Nunito', sans-serif;
+    margin: 0 10%;
+  }
+
+  h1 {
+    font-size: 70px;
+    color: #333333;
+    letter-spacing: -1px;
+    line-height: 76px;
+    font-weight: 200;
+  }
+
+  h2 {
+    font-size: 55px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 56px;
+    font-weight: 300;
+  }
+
+  h3 {
+    font-size: 40px;
+    color: #333333;
+    letter-spacing: 0;
+    line-height: 46px;
+    font-weight: 300;
+  }
+
+  h4 {
+    font-size: 30px;
+    color: #333333;
+    letter-spacing: 0;
+    line-height: 36px;
+    font-weight: 400;
+  }
+
+  h5 {
+    font-size: 22px;
+    color: #333333;
+    letter-spacing: 0;
+    line-height: 28px;
+    font-weight: 400;
+  }
+
+  p {
+    font-size: 22px;
+    color: #333333;
+    letter-spacing: 0;
+    line-height: 28px;
+    font-weight: 400;
+  }
+
+  small {
+    font-size: 12px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 16px;
+    font-weight: 700;
+  }
+
+  /*----- FLEX --- */
+
+  .box {
+    padding: 30px;
+    box-sizing: border-box;
+    flex-grow: 1;
+  }
+
+  .box-small {
+    height: 10%;
+  }
+
+  .box-big {
+    height:20%;
+  }
+
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+
+  </style>
+</head>
+<body>
+<main>
+
+<h5>UI SMALL TALKS</h5>
+
+<h1>ESTE ES NUESTRO ROADMAP</h1>
+
+<section class="flex-row">
+    <div class="flex-column">
+    <article class="box box-big bg-gray">
+      <small>UI SMALL TALKS</small>
+      <h2>Doppler Design System</h2>
+    </article>
+    <article class="box box-big bg-violet">
+      <small>UI SMALL TALKS</small>
+      <h2 class="txt-white">Doppler Design System</h2>
+    </article>
+    <div class="flex-row">
+        <article class="box box-small bg-gray">
+          <small>UI SMALL TALKS</small>
+          <h5 class="txt-white">Doppler Design System</h5>
+        </article>
+        <article class="box box-small bg-yellow">
+          <small>UI SMALL TALKS</small>
+          <h5 class="txt-white" >Doppler Design System</h5>
+        </article>
+    </div>
+    <div class="flex-row">
+        <article class="box box-small bg-violet">
+          <small>UI SMALL TALKS</small>
+          <h5 class="txt-white">Doppler Design System</h5>
+        </article>
+        <article class="box box-small bg-gray">
+          <small>UI SMALL TALKS</small>
+          <h5 class="txt-white" >Doppler Design System</h5>
+        </article>
+    </div>
+  </div>
+
+  <div class="flex-column">
+    <article class="box box-big bg-violet">
+      <small>UI SMALL TALKS</small>
+      <h2>Doppler Design System</h2>
+    </article>
+    <div class="flex-row">
+        <article class="box box-small bg-gray">
+          <small>UI SMALL TALKS</small>
+          <h5 class="txt-white">Doppler Design System</h5>
+        </article>
+        <article class="box box-small bg-violet">
+          <small>UI SMALL TALKS</small>
+          <h5 class="txt-white" >Doppler Design System</h5>
+        </article>
+    </div>
+    <div class="flex-row">
+        <article class="box box-small bg-gray">
+          <small>UI SMALL TALKS</small>
+          <h5 class="txt-white">Doppler Design System</h5>
+        </article>
+        <article class="box box-small bg-yellow">
+          <small>UI SMALL TALKS</small>
+          <h5 class="txt-white" >Doppler Design System</h5>
+        </article>
+    </div>
+    <article class="box box-small bg-gray">
+          <small>UI SMALL TALKS</small>
+          <h5 class="txt-white">Doppler Design System</h5>
+        </article>
+        <article class="box box-small bg-violet">
+          <small>UI SMALL TALKS</small>
+          <h5 class="txt-white" >Doppler Design System</h5>
+        </article>
+
+  </div>
+
+
+  <div class="flex-column">
+    <div class="flex-row">
+        <article class="box box-small bg-gray">
+          <small>UI SMALL TALKS</small>
+          <h5 class="txt-white">Doppler Design System</h5>
+        </article>
+        <article class="box box-small bg-violet">
+          <small>UI SMALL TALKS</small>
+          <h5 class="txt-white" >Doppler Design System</h5>
+        </article>
+    </div>
+    <div class="flex-row">
+        <article class="box box-small bg-yellow">
+          <small>UI SMALL TALKS</small>
+          <h5 class="txt-white">Doppler Design System</h5>
+        </article>
+        <article class="box box-small bg-gray">
+          <small>UI SMALL TALKS</small>
+          <h5 class="txt-white" >Doppler Design System</h5>
+        </article>
+    </div>
+    <div class="flex-row">
+        <article class="box box-small bg-violet">
+          <small>UI SMALL TALKS</small>
+          <h5 class="txt-white">Doppler Design System</h5>
+        </article>
+        <article class="box box-small bg-yellow">
+          <small>UI SMALL TALKS</small>
+          <h5 class="txt-white" >Doppler Design System</h5>
+        </article>
+    </div>
+    <div class="flex-row">
+        <article class="box box-small bg-gray">
+          <small>UI SMALL TALKS</small>
+          <h5 class="txt-white">Doppler Design System</h5>
+        </article>
+        <article class="box box-small bg-violet">
+          <small>UI SMALL TALKS</small>
+          <h5 class="txt-white" >Doppler Design System</h5>
+        </article>
+    </div>
+     <article class="box box-big bg-yellow">
+      <small>UI SMALL TALKS</small>
+      <h2>Doppler Design System</h2>
+    </article>
+  </div>
+
+
+</section>
+
+
+</main>
+<script type="text/javascript">
+
+</script>
+</body>
+</html>
